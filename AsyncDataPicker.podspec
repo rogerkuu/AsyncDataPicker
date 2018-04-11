@@ -8,6 +8,7 @@ s.authors = { 'Mianji GU' => 'roger.kuu@gmail.com' }
 s.source = { :git => "https://github.com/rogerkuu/AsyncDataPicker.git", :tag => "0.1.0"}
 s.requires_arc = true
 s.ios.deployment_target = '9.0'
-s.source_files = 'AsyncDataPicker/*.{.swift,.h}'
-s.resources    = 'AsyncDataPicker/*.{xib,storyboard}'
+s.swift_version = '4.0'
+s.source_files = 'AsyncDataPicker/AsyncDataPicker/*.{swift,h}'
+s.resources    = 'AsyncDataPicker/AsyncDataPicker/*.{xib,storyboard}'
 end
