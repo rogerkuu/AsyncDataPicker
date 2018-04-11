@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC0E929207A661700FD09A5 /* AsyncDataPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC0E927207A661700FD09A5 /* AsyncDataPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC0E930207A663900FD09A5 /* AsyncDataPickerAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E92F207A663900FD09A5 /* AsyncDataPickerAttribute.swift */; };
+		3FC0E936207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E935207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift */; };
+		3FC0E939207A66DD00FD09A5 /* AsyncDataPickerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E937207A66DD00FD09A5 /* AsyncDataPickerItemCell.xib */; };
+		3FC0E93A207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E938207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift */; };
+		3FC0E93C207A672000FD09A5 /* AsyncDataPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E93B207A672000FD09A5 /* AsyncDataPickerModel.swift */; };
+		3FC0E93E207A673900FD09A5 /* AsyncDataPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E93D207A673800FD09A5 /* AsyncDataPicker.swift */; };
+		3FC0E985207A71A300FD09A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E984207A71A300FD09A5 /* AppDelegate.swift */; };
+		3FC0E987207A71A300FD09A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E986207A71A300FD09A5 /* ViewController.swift */; };
+		3FC0E98A207A71A300FD09A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E988207A71A300FD09A5 /* Main.storyboard */; };
+		3FC0E98C207A71A400FD09A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E98B207A71A400FD09A5 /* Assets.xcassets */; };
+		3FC0E98F207A71A400FD09A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E98D207A71A400FD09A5 /* LaunchScreen.storyboard */; };
+		3FC0E99C207A771600FD09A5 /* AsyncDataPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */; };
+		3FC0E99E207A77FF00FD09A5 /* AsyncDataPickerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E937207A66DD00FD09A5 /* AsyncDataPickerItemCell.xib */; };
+		3FC0E9A5207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E9A3207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift */; };
+		3FC0E9BD207A801A00FD09A5 /* AsyncDataPickerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E9BF207A801A00FD09A5 /* AsyncDataPickerHeaderCell.xib */; };
+		3FC0E9C4207A810F00FD09A5 /* AsyncDataPickerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E9BF207A801A00FD09A5 /* AsyncDataPickerHeaderCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC0E996207A735F00FD09A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC0E91B207A661600FD09A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC0E923207A661700FD09A5;
+			remoteInfo = AsyncDataPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB22B81207BC1020068FB74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AsyncDataPickerHeaderCell.xib; sourceTree = "<group>"; };
+		3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncDataPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC0E927207A661700FD09A5 /* AsyncDataPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncDataPicker.h; sourceTree = "<group>"; };
+		3FC0E928207A661700FD09A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC0E92F207A663900FD09A5 /* AsyncDataPickerAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerAttribute.swift; sourceTree = "<group>"; };
+		3FC0E935207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerItemProtocol.swift; sourceTree = "<group>"; };
+		3FC0E937207A66DD00FD09A5 /* AsyncDataPickerItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncDataPickerItemCell.xib; sourceTree = "<group>"; };
+		3FC0E938207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerItemCell.swift; sourceTree = "<group>"; };
+		3FC0E93B207A672000FD09A5 /* AsyncDataPickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerModel.swift; sourceTree = "<group>"; };
+		3FC0E93D207A673800FD09A5 /* AsyncDataPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPicker.swift; sourceTree = "<group>"; };
+		3FC0E982207A71A300FD09A5 /* AsyncDataPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDataPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC0E984207A71A300FD09A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC0E986207A71A300FD09A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC0E989207A71A300FD09A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC0E98B207A71A400FD09A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC0E98E207A71A400FD09A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC0E990207A71A400FD09A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC0E9A3207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerHeaderCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC0E920207A661700FD09A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC0E97F207A71A300FD09A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0E99C207A771600FD09A5 /* AsyncDataPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC0E91A207A661600FD09A5 = {
+			isa = PBXGroup;
+			children = (
+				3FC0E926207A661700FD09A5 /* AsyncDataPicker */,
+				3FC0E983207A71A300FD09A5 /* AsyncDataPickerDemo */,
+				3FC0E925207A661700FD09A5 /* Products */,
+				3FC0E999207A75DE00FD09A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC0E925207A661700FD09A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */,
+				3FC0E982207A71A300FD09A5 /* AsyncDataPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC0E926207A661700FD09A5 /* AsyncDataPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3FC0E92F207A663900FD09A5 /* AsyncDataPickerAttribute.swift */,
+				3FC0E938207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift */,
+				3FC0E937207A66DD00FD09A5 /* AsyncDataPickerItemCell.xib */,
+				3FC0E935207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift */,
+				3FC0E93B207A672000FD09A5 /* AsyncDataPickerModel.swift */,
+				3FC0E93D207A673800FD09A5 /* AsyncDataPicker.swift */,
+				3FC0E927207A661700FD09A5 /* AsyncDataPicker.h */,
+				3FC0E928207A661700FD09A5 /* Info.plist */,
+				3FC0E9A3207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift */,
+				3FC0E9BF207A801A00FD09A5 /* AsyncDataPickerHeaderCell.xib */,
+			);
+			path = AsyncDataPicker;
+			sourceTree = "<group>";
+		};
+		3FC0E983207A71A300FD09A5 /* AsyncDataPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3FC0E984207A71A300FD09A5 /* AppDelegate.swift */,
+				3FC0E986207A71A300FD09A5 /* ViewController.swift */,
+				3FC0E988207A71A300FD09A5 /* Main.storyboard */,
+				3FC0E98B207A71A400FD09A5 /* Assets.xcassets */,
+				3FC0E98D207A71A400FD09A5 /* LaunchScreen.storyboard */,
+				3FC0E990207A71A400FD09A5 /* Info.plist */,
+			);
+			path = AsyncDataPickerDemo;
+			sourceTree = "<group>";
+		};
+		3FC0E999207A75DE00FD09A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FC0E921207A661700FD09A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0E929207A661700FD09A5 /* AsyncDataPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FC0E923207A661700FD09A5 /* AsyncDataPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC0E92C207A661700FD09A5 /* Build configuration list for PBXNativeTarget "AsyncDataPicker" */;
+			buildPhases = (
+				3FC0E91F207A661700FD09A5 /* Sources */,
+				3FC0E920207A661700FD09A5 /* Frameworks */,
+				3FC0E921207A661700FD09A5 /* Headers */,
+				3FC0E922207A661700FD09A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncDataPicker;
+			productName = AsyncDataPicker;
+			productReference = 3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FC0E981207A71A300FD09A5 /* AsyncDataPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC0E993207A71A400FD09A5 /* Build configuration list for PBXNativeTarget "AsyncDataPickerDemo" */;
+			buildPhases = (
+				3FC0E97E207A71A300FD09A5 /* Sources */,
+				3FC0E97F207A71A300FD09A5 /* Frameworks */,
+				3FC0E980207A71A300FD09A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC0E997207A735F00FD09A5 /* PBXTargetDependency */,
+			);
+			name = AsyncDataPickerDemo;
+			productName = AsyncDataPickerDemo;
+			productReference = 3FC0E982207A71A300FD09A5 /* AsyncDataPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC0E91B207A661600FD09A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mianji GU";
+				TargetAttributes = {
+					3FC0E923207A661700FD09A5 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					3FC0E981207A71A300FD09A5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 3FC0E91E207A661600FD09A5 /* Build configuration list for PBXProject "AsyncDataPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3FC0E91A207A661600FD09A5;
+			productRefGroup = 3FC0E925207A661700FD09A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC0E923207A661700FD09A5 /* AsyncDataPicker */,
+				3FC0E981207A71A300FD09A5 /* AsyncDataPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC0E922207A661700FD09A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0E9BD207A801A00FD09A5 /* AsyncDataPickerHeaderCell.xib in Resources */,
+				3FC0E939207A66DD00FD09A5 /* AsyncDataPickerItemCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC0E980207A71A300FD09A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0E9C4207A810F00FD09A5 /* AsyncDataPickerHeaderCell.xib in Resources */,
+				3FC0E99E207A77FF00FD09A5 /* AsyncDataPickerItemCell.xib in Resources */,
+				3FC0E98F207A71A400FD09A5 /* LaunchScreen.storyboard in Resources */,
+				3FC0E98C207A71A400FD09A5 /* Assets.xcassets in Resources */,
+				3FC0E98A207A71A300FD09A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC0E91F207A661700FD09A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0E936207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift in Sources */,
+				3FC0E930207A663900FD09A5 /* AsyncDataPickerAttribute.swift in Sources */,
+				3FC0E93E207A673900FD09A5 /* AsyncDataPicker.swift in Sources */,
+				3FC0E93C207A672000FD09A5 /* AsyncDataPickerModel.swift in Sources */,
+				3FC0E93A207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift in Sources */,
+				3FC0E9A5207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC0E97E207A71A300FD09A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC0E987207A71A300FD09A5 /* ViewController.swift in Sources */,
+				3FC0E985207A71A300FD09A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC0E997207A735F00FD09A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC0E923207A661700FD09A5 /* AsyncDataPicker */;
+			targetProxy = 3FC0E996207A735F00FD09A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC0E988207A71A300FD09A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC0E989207A71A300FD09A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC0E98D207A71A400FD09A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC0E98E207A71A400FD09A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC0E9BF207A801A00FD09A5 /* AsyncDataPickerHeaderCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB22B81207BC1020068FB74 /* en */,
+			);
+			name = AsyncDataPickerHeaderCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC0E92A207A661700FD09A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FC0E92B207A661700FD09A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FC0E92D207A661700FD09A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AsyncDataPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjgu.lib.AsyncDataPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC0E92E207A661700FD09A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AsyncDataPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjgu.lib.AsyncDataPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FC0E991207A71A400FD09A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsyncDataPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjgu.app.AsyncDataPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FC0E992207A71A400FD09A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AsyncDataPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjgu.app.AsyncDataPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC0E91E207A661600FD09A5 /* Build configuration list for PBXProject "AsyncDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC0E92A207A661700FD09A5 /* Debug */,
+				3FC0E92B207A661700FD09A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC0E92C207A661700FD09A5 /* Build configuration list for PBXNativeTarget "AsyncDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC0E92D207A661700FD09A5 /* Debug */,
+				3FC0E92E207A661700FD09A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC0E993207A71A400FD09A5 /* Build configuration list for PBXNativeTarget "AsyncDataPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC0E991207A71A400FD09A5 /* Debug */,
+				3FC0E992207A71A400FD09A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC0E91B207A661600FD09A5 /* Project object */;
+}
