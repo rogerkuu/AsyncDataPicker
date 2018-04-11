@@ -18,10 +18,13 @@ let picker = AsyncDataPicker(numberOfComponents: 2, title: "Color")
 //config DataProvider. You should 
 picker.configDataProvider {[unowned self] (component, parentID, receiver) in
     if component == 0 {
-        let firstComponentData = self.loadFirstComponentData() // load first Component Data from network or local.
-        receiver(firstComponentData) // all component data should adopt AsyncDataPickerItemProtocol
+        // load first Component Data from network or local.
+        let firstComponentData = self.loadFirstComponentData() 
+        // all component data should adopt AsyncDataPickerItemProtocol
+        receiver(firstComponentData) 
     } else if component == 1 {
-        let secondComponentData = self.loadSecondComponentData(firstID: parentID) // load second Component Data from network or local.
+        // load second Component Data from network or local.
+        let secondComponentData = self.loadSecondComponentData(firstID: parentID) 
         receiver(secondComponentData)
     }
 }
