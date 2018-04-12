@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  AsyncDataPickerDemo
+//  TestAsyncDataPicker
 //
-//  Created by Mianji GU on 2018/4/8.
+//  Created by Mianji GU on 2018/4/12.
 //  Copyright © 2018年 Mianji GU. All rights reserved.
 //
 

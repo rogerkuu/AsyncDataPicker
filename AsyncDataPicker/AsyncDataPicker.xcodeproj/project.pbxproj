@@ -15,24 +15,8 @@
 		3FC0E93A207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E938207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift */; };
 		3FC0E93C207A672000FD09A5 /* AsyncDataPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E93B207A672000FD09A5 /* AsyncDataPickerModel.swift */; };
 		3FC0E93E207A673900FD09A5 /* AsyncDataPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E93D207A673800FD09A5 /* AsyncDataPicker.swift */; };
-		3FC0E985207A71A300FD09A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E984207A71A300FD09A5 /* AppDelegate.swift */; };
-		3FC0E987207A71A300FD09A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E986207A71A300FD09A5 /* ViewController.swift */; };
-		3FC0E98A207A71A300FD09A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E988207A71A300FD09A5 /* Main.storyboard */; };
-		3FC0E98C207A71A400FD09A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E98B207A71A400FD09A5 /* Assets.xcassets */; };
-		3FC0E98F207A71A400FD09A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC0E98D207A71A400FD09A5 /* LaunchScreen.storyboard */; };
-		3FC0E99C207A771600FD09A5 /* AsyncDataPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */; };
 		3FC0E9A5207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E9A3207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3FC0E996207A735F00FD09A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FC0E91B207A661600FD09A5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FC0E923207A661700FD09A5;
-			remoteInfo = AsyncDataPicker;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3F4B899A207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncDataPickerHeaderCell.xib; sourceTree = "<group>"; };
@@ -45,13 +29,6 @@
 		3FC0E938207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerItemCell.swift; sourceTree = "<group>"; };
 		3FC0E93B207A672000FD09A5 /* AsyncDataPickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerModel.swift; sourceTree = "<group>"; };
 		3FC0E93D207A673800FD09A5 /* AsyncDataPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncDataPicker.swift; sourceTree = "<group>"; };
-		3FC0E982207A71A300FD09A5 /* AsyncDataPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDataPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FC0E984207A71A300FD09A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FC0E986207A71A300FD09A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FC0E989207A71A300FD09A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FC0E98B207A71A400FD09A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FC0E98E207A71A400FD09A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FC0E990207A71A400FD09A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC0E9A3207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDataPickerHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,14 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FC0E97F207A71A300FD09A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FC0E99C207A771600FD09A5 /* AsyncDataPicker.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				3FC0E926207A661700FD09A5 /* AsyncDataPicker */,
-				3FC0E983207A71A300FD09A5 /* AsyncDataPickerDemo */,
 				3FC0E925207A661700FD09A5 /* Products */,
 				3FC0E999207A75DE00FD09A5 /* Frameworks */,
 			);
@@ -88,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */,
-				3FC0E982207A71A300FD09A5 /* AsyncDataPickerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,19 +75,6 @@
 				3F4B899A207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib */,
 			);
 			path = AsyncDataPicker;
-			sourceTree = "<group>";
-		};
-		3FC0E983207A71A300FD09A5 /* AsyncDataPickerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				3FC0E984207A71A300FD09A5 /* AppDelegate.swift */,
-				3FC0E986207A71A300FD09A5 /* ViewController.swift */,
-				3FC0E988207A71A300FD09A5 /* Main.storyboard */,
-				3FC0E98B207A71A400FD09A5 /* Assets.xcassets */,
-				3FC0E98D207A71A400FD09A5 /* LaunchScreen.storyboard */,
-				3FC0E990207A71A400FD09A5 /* Info.plist */,
-			);
-			path = AsyncDataPickerDemo;
 			sourceTree = "<group>";
 		};
 		3FC0E999207A75DE00FD09A5 /* Frameworks */ = {
@@ -162,24 +116,6 @@
 			productReference = 3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3FC0E981207A71A300FD09A5 /* AsyncDataPickerDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FC0E993207A71A400FD09A5 /* Build configuration list for PBXNativeTarget "AsyncDataPickerDemo" */;
-			buildPhases = (
-				3FC0E97E207A71A300FD09A5 /* Sources */,
-				3FC0E97F207A71A300FD09A5 /* Frameworks */,
-				3FC0E980207A71A300FD09A5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FC0E997207A735F00FD09A5 /* PBXTargetDependency */,
-			);
-			name = AsyncDataPickerDemo;
-			productName = AsyncDataPickerDemo;
-			productReference = 3FC0E982207A71A300FD09A5 /* AsyncDataPickerDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,9 +129,6 @@
 					3FC0E923207A661700FD09A5 = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
-					};
-					3FC0E981207A71A300FD09A5 = {
-						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
@@ -214,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				3FC0E923207A661700FD09A5 /* AsyncDataPicker */,
-				3FC0E981207A71A300FD09A5 /* AsyncDataPickerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -226,16 +158,6 @@
 			files = (
 				3F4B899C207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */,
 				3F4B899D207FB82200D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FC0E980207A71A300FD09A5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FC0E98F207A71A400FD09A5 /* LaunchScreen.storyboard in Resources */,
-				3FC0E98C207A71A400FD09A5 /* Assets.xcassets in Resources */,
-				3FC0E98A207A71A300FD09A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,43 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FC0E97E207A71A300FD09A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FC0E987207A71A300FD09A5 /* ViewController.swift in Sources */,
-				3FC0E985207A71A300FD09A5 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3FC0E997207A735F00FD09A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FC0E923207A661700FD09A5 /* AsyncDataPicker */;
-			targetProxy = 3FC0E996207A735F00FD09A5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3FC0E988207A71A300FD09A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FC0E989207A71A300FD09A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3FC0E98D207A71A400FD09A5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FC0E98E207A71A400FD09A5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3FC0E92A207A661700FD09A5 /* Debug */ = {
@@ -467,42 +353,6 @@
 			};
 			name = Release;
 		};
-		3FC0E991207A71A400FD09A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AsyncDataPickerDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mjgu.app.AsyncDataPickerDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3FC0E992207A71A400FD09A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AsyncDataPickerDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mjgu.app.AsyncDataPickerDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,15 +370,6 @@
 			buildConfigurations = (
 				3FC0E92D207A661700FD09A5 /* Debug */,
 				3FC0E92E207A661700FD09A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FC0E993207A71A400FD09A5 /* Build configuration list for PBXNativeTarget "AsyncDataPickerDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FC0E991207A71A400FD09A5 /* Debug */,
-				3FC0E992207A71A400FD09A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

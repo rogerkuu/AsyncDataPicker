@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  AsyncDataPickerDemo
+//  TestAsyncDataPicker
 //
-//  Created by Mianji GU on 2018/4/8.
+//  Created by Mianji GU on 2018/4/12.
 //  Copyright © 2018年 Mianji GU. All rights reserved.
 //
 
@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func chooseColorAction(_ sender: UIButton) {
+    
+    @IBAction func selectColorAction(_ sender: UIButton) {
         let picker = AsyncDataPicker(numberOfComponents: 2, title: "Color")
         picker.configDataProvider {[unowned self] (component, parentID, receiver) in
             if component == 0 {
@@ -104,4 +104,3 @@ extension ViewController {
         return colorArray
     }
 }
-
