@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F4B8961207FAB2000D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B895F207FAB2000D6C2C8 /* AsyncDataPickerItemCell.xib */; };
-		3F4B8962207FAB2000D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B8960207FAB2000D6C2C8 /* AsyncDataPickerHeaderCell.xib */; };
-		3F4B8963207FAB4300D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B895F207FAB2000D6C2C8 /* AsyncDataPickerItemCell.xib */; };
-		3F4B8964207FAB4300D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B8960207FAB2000D6C2C8 /* AsyncDataPickerHeaderCell.xib */; };
+		3F4B899C207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B899A207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib */; };
+		3F4B899D207FB82200D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B899B207FB82200D6C2C8 /* AsyncDataPickerItemCell.xib */; };
 		3FC0E929207A661700FD09A5 /* AsyncDataPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC0E927207A661700FD09A5 /* AsyncDataPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FC0E930207A663900FD09A5 /* AsyncDataPickerAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E92F207A663900FD09A5 /* AsyncDataPickerAttribute.swift */; };
 		3FC0E936207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E935207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift */; };
@@ -37,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F4B895F207FAB2000D6C2C8 /* AsyncDataPickerItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncDataPickerItemCell.xib; sourceTree = "<group>"; };
-		3F4B8960207FAB2000D6C2C8 /* AsyncDataPickerHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncDataPickerHeaderCell.xib; sourceTree = "<group>"; };
+		3F4B899A207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncDataPickerHeaderCell.xib; sourceTree = "<group>"; };
+		3F4B899B207FB82200D6C2C8 /* AsyncDataPickerItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AsyncDataPickerItemCell.xib; sourceTree = "<group>"; };
 		3FC0E924207A661700FD09A5 /* AsyncDataPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncDataPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC0E927207A661700FD09A5 /* AsyncDataPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncDataPicker.h; sourceTree = "<group>"; };
 		3FC0E928207A661700FD09A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,14 +98,14 @@
 			children = (
 				3FC0E92F207A663900FD09A5 /* AsyncDataPickerAttribute.swift */,
 				3FC0E938207A66DD00FD09A5 /* AsyncDataPickerItemCell.swift */,
-				3F4B895F207FAB2000D6C2C8 /* AsyncDataPickerItemCell.xib */,
+				3F4B899B207FB82200D6C2C8 /* AsyncDataPickerItemCell.xib */,
 				3FC0E935207A66A700FD09A5 /* AsyncDataPickerItemProtocol.swift */,
 				3FC0E93B207A672000FD09A5 /* AsyncDataPickerModel.swift */,
 				3FC0E93D207A673800FD09A5 /* AsyncDataPicker.swift */,
 				3FC0E927207A661700FD09A5 /* AsyncDataPicker.h */,
 				3FC0E928207A661700FD09A5 /* Info.plist */,
 				3FC0E9A3207A7C4300FD09A5 /* AsyncDataPickerHeaderCell.swift */,
-				3F4B8960207FAB2000D6C2C8 /* AsyncDataPickerHeaderCell.xib */,
+				3F4B899A207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib */,
 			);
 			path = AsyncDataPicker;
 			sourceTree = "<group>";
@@ -226,8 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4B8962207FAB2000D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */,
-				3F4B8961207FAB2000D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */,
+				3F4B899C207FB82200D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */,
+				3F4B899D207FB82200D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,8 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4B8963207FAB4300D6C2C8 /* AsyncDataPickerItemCell.xib in Resources */,
-				3F4B8964207FAB4300D6C2C8 /* AsyncDataPickerHeaderCell.xib in Resources */,
 				3FC0E98F207A71A400FD09A5 /* LaunchScreen.storyboard in Resources */,
 				3FC0E98C207A71A400FD09A5 /* Assets.xcassets in Resources */,
 				3FC0E98A207A71A300FD09A5 /* Main.storyboard in Resources */,

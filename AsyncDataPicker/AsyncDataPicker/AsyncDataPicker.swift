@@ -147,7 +147,8 @@ extension AsyncDataPicker {
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.register(UINib(nibName: "AsyncDataPickerHeaderCell", bundle: nil), forCellWithReuseIdentifier: headerCellIdentifier)
+        let bundle = Bundle(path: Bundle(for: AsyncDataPicker.self).path(forResource: "AsyncDataPickerPod", ofType: "bundle")!)
+        collectionView.register(UINib(nibName: "AsyncDataPickerHeaderCell", bundle: bundle), forCellWithReuseIdentifier: headerCellIdentifier)
     }
     
     private func setupScrollView() {
@@ -169,7 +170,8 @@ extension AsyncDataPicker {
                                     style: .plain)
         tableView.showsVerticalScrollIndicator = false
         tableView.separatorStyle = .none
-        tableView.register(UINib(nibName: "AsyncDataPickerItemCell", bundle: nil), forCellReuseIdentifier: itemCellIdentifier)
+        let bundle = Bundle(path: Bundle(for: AsyncDataPicker.self).path(forResource: "AsyncDataPickerPod", ofType: "bundle")!)
+        tableView.register(UINib(nibName: "AsyncDataPickerItemCell", bundle: bundle), forCellReuseIdentifier: itemCellIdentifier)
         tableView.backgroundColor = UIColor.white
         tableView.delegate = self
         tableView.dataSource = self
